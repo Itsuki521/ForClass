@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #caf0f8;
+    margin: 0px;
+}
+
+header {
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+
+    margin: 20px;
+    background-color: #fefae0;
+    float: left;
+    font-size: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 30px 60px;
+}
+
+.motto {
+
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 50px;
+    float: left;
+}
