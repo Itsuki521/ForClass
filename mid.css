@@ -17,13 +17,18 @@ header {
     padding: 20px;
 }
 
+.headerph {
+    border-radius: 5%;
+}
+
 nav {
 
     margin: 20px;
     background-color: #fefae0;
     float: left;
-    width: 15%;
+    width: 10%;
     font-size: 20px;
+    border-radius: 10%;
 }
 
 nav a {
@@ -32,35 +37,103 @@ nav a {
     padding: 10px 20px;
 }
 
+
 .motto {
-    margin: 80px 30px;
+    margin: 20px 30px;
     padding: 30px;
     font-size: 50px;
     float: left;
-    width: 40%;
+    width: 60%;
     text-align: center;
-
+    position: relative;
+    top: 100px;
 }
 
 .motext {
-    text-indent: 40%;
+    text-indent: 20%;
 }
 
-aside {
+.myself {
     font-family: Arial;
     text-align: center;
-    padding: 20px 50px;
+    padding: 20px 10px;
     float: right;
-    width: 30%;
+    width: 20%;
+    margin: 20px 10px;
     background-image: url(img/17.jpg);
     background-size: cover;
     border-radius: 10%;
+    position: relative;
+    top: 10px;
 }
 
-.card {
-    margin: 20px 10px;
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
 }
 
 .photo {
     border-radius: 50%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.card {
+    background-image: url(img/18.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 10%;
+
+}
+
+.Bstyle {
+    position: relative;
+    left: 150px;
+    width: 70%;
+    border: none;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.textright {
+    text-align: right;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.imgleft {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    padding: 20px 10px;
+    float: left;
+}
+
+.posright {
+    position: relative;
+    right: 20px;
+}
+
+.meterleft {
+    font-size: 40px;
+    float: left;
+
+}
+
+.meterright {
+    font-size: 40px;
+    float: right;
+    \
+
 }
