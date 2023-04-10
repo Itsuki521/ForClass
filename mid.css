@@ -65,6 +65,7 @@ nav a:hover {
     margin: 20px 30px;
     padding: 30px;
     font-size: 50px;
+    font-weight: bold;
     color: aqua;
     float: left;
     width: 60%;
